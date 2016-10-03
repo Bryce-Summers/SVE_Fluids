@@ -1,0 +1,26 @@
++ -- Installation Notes --+
+
+Download grunt to inject the all of the files automatically.
+
+//--- Here are some template example pieces of code for the index.tpl.html file.
+<!-- include: "type": "css", "files": "**/*.css" -->
+<!-- /include -->
+<!-- include: "type": "js", "files": "**/*.js" -->
+<!-- /include -->
+
+Modify the package.json dependancies as needed.
+Now Please run all of the following commands.
+
+// Initialize npm repository.
+npm update -g npm
+
+npm init
+
+npm install -g grunt-cli
+
+npm install grunt --save-dev
+npm install grunt-contrib-uglify --save-dev
+npm install grunt-contrib-watch --save-dev
+npm install grunt-include-source
+
+npm update

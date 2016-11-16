@@ -16,7 +16,7 @@ npm update -g npm
 
 npm init
 
-npm install -g grunt-cli
+npm install grunt-cli --save-dev
 
 npm install grunt --save-dev
 npm install grunt-contrib-uglify --save-dev
@@ -24,3 +24,5 @@ npm install grunt-contrib-watch --save-dev
 npm install grunt-include-source
 
 npm update
+
+go to the location of local grunt and run grunt.

@@ -29,10 +29,11 @@
   },
   "homepage": "https://github.com/Bryce-Summers/SVE_Fluids",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "~0.4.1",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-include-source": "^1.0.0",
     "three-js": "79"
-  }
+  },
 }
